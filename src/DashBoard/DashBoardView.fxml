@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="722.0" minWidth="700.0" style="-fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashBoard.DashBoardViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="239.0" layoutY="38.0" prefHeight="39.0" prefWidth="216.0" style="-fx-border-color: black; -fx-border-radius: 3; -fx-label-padding: 5;" text="Dashboard">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="191.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer.jpg" />
+         </image></ImageView>
+      <Separator layoutX="191.0" layoutY="249.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="191.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="341.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="192.0" layoutY="99.0" prefHeight="3.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="351.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@area%20(2).jpg" />
+         </image></ImageView>
+      <Separator layoutX="351.0" layoutY="249.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="351.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="501.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="352.0" layoutY="99.0" prefHeight="3.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="43.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawker.jpg" />
+         </image></ImageView>
+      <Separator layoutX="31.0" layoutY="249.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="31.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="181.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="32.0" layoutY="99.0" prefHeight="3.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="191.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bill.jpg" />
+         </image></ImageView>
+      <Separator layoutX="191.0" layoutY="459.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="191.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="341.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="192.0" layoutY="309.0" prefHeight="3.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="351.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawkerList.png" />
+         </image></ImageView>
+      <Separator layoutX="351.0" layoutY="459.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="351.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="501.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="352.0" layoutY="309.0" prefHeight="3.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="39.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@billcoll.jpg" />
+         </image></ImageView>
+      <Separator layoutX="31.0" layoutY="459.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="31.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="181.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="32.0" layoutY="309.0" prefHeight="3.0" prefWidth="150.0" />
+      <Button layoutX="36.0" layoutY="259.0" mnemonicParsing="false" onAction="#doHawkerControl" prefHeight="26.0" prefWidth="133.0" text="Hawker Control" />
+      <Button layoutX="200.0" layoutY="259.0" mnemonicParsing="false" onAction="#doCustomer" prefHeight="26.0" prefWidth="133.0" text="Customer" />
+      <Button layoutX="360.0" layoutY="259.0" mnemonicParsing="false" onAction="#doAreaMaster" prefHeight="26.0" prefWidth="133.0" text="Area Master" />
+      <Button layoutX="40.0" layoutY="468.0" mnemonicParsing="false" onAction="#doBillCollection" prefHeight="26.0" prefWidth="133.0" text="Bill Collection" />
+      <Button layoutX="200.0" layoutY="468.0" mnemonicParsing="false" onAction="#doBillStatuc" prefHeight="26.0" prefWidth="133.0" text="Bill Status" />
+      <Button layoutX="360.0" layoutY="469.0" mnemonicParsing="false" onAction="#doHawkerLIst" prefHeight="26.0" prefWidth="134.0" text="Hawker List" />
+      <Separator layoutX="126.0" layoutY="511.0" prefHeight="3.0" prefWidth="474.0" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="511.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@custoList.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="511.0" layoutY="459.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="511.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="661.0" layoutY="309.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="512.0" layoutY="309.0" prefHeight="3.0" prefWidth="150.0" />
+      <Button layoutX="520.0" layoutY="468.0" mnemonicParsing="false" onAction="#doCustomerList" prefHeight="26.0" prefWidth="133.0" text="Our Customers" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="516.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newspaper.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="511.0" layoutY="249.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="511.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="661.0" layoutY="99.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="512.0" layoutY="99.0" prefHeight="3.0" prefWidth="150.0" />
+      <Button layoutX="520.0" layoutY="258.0" mnemonicParsing="false" onAction="#doNewspaperMaster" prefHeight="26.0" prefWidth="133.0" text="Newspaper Master" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="277.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@developer.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="272.0" layoutY="672.0" prefHeight="3.0" prefWidth="150.0" />
+      <Separator layoutX="272.0" layoutY="522.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="422.0" layoutY="522.0" orientation="VERTICAL" prefHeight="150.0" prefWidth="1.0" />
+      <Separator layoutX="273.0" layoutY="522.0" prefHeight="3.0" prefWidth="150.0" />
+      <Button layoutX="281.0" layoutY="645.0" mnemonicParsing="false" onAction="#doDeveloper" prefHeight="26.0" prefWidth="133.0" text="Develpoer Info" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="700.0" style="-fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CustomerDisplay.TableViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="221.0" layoutY="31.0" prefHeight="26.0" prefWidth="257.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 3; -fx-padding: 4;" text="Customer's Visibility Area">
+         <font>
+            <Font name="Calibri Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="95.0" text="Areas">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="154.0" text="Paper">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboArea" editable="true" layoutX="101.0" layoutY="116.0" prefHeight="26.0" prefWidth="174.0" />
+      <ComboBox fx:id="comboPaper" editable="true" layoutX="101.0" layoutY="177.0" prefHeight="26.0" prefWidth="174.0" />
+      <Button layoutX="303.0" layoutY="116.0" mnemonicParsing="false" onAction="#doAreaSearch" prefHeight="26.0" prefWidth="74.0" text="Search" />
+      <Button layoutX="303.0" layoutY="175.0" mnemonicParsing="false" onAction="#doPaperSearch" prefHeight="26.0" prefWidth="74.0" text="Search" />
+      <Button layoutX="468.0" layoutY="141.0" mnemonicParsing="false" onAction="#btnShowAll" text="Show All Customers" />
+      <TableView fx:id="tblView" layoutX="68.0" layoutY="222.0" prefHeight="253.0" prefWidth="562.0" />
+      <Separator layoutX="412.0" layoutY="107.0" orientation="VERTICAL" prefHeight="94.0" prefWidth="30.0" />
+   </children>
+</AnchorPane>

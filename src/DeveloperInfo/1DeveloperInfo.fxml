@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="450.0" prefWidth="550.0" style="-fx-border-color: black; -fx-border-width: 2px;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="155.0" layoutY="41.0" prefHeight="24.0" prefWidth="239.0" style="-fx-border-color: black; -fx-border-radius: 5px;" text="Developer's Info">
+         <font>
+            <Font name="Serif Bold" size="21.0" />
+         </font>
+      </Label>
+      <Text layoutX="41.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed and Designed by Shivam Keshri." textAlignment="CENTER" wrappingWidth="468.50469970703125">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <ImageView fitHeight="232.0" fitWidth="183.0" layoutX="184.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pp_shivam.jpeg" />
+         </image></ImageView>
+      
+      <Text layoutX="71.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="183.70468139648438">
+         <font>
+                     <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Java | C++ | 4 🌟 @Codechef | 2024 Graduation" wrappingWidth="370.41448974609375">
+         <font>
+            <Font size="13.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
