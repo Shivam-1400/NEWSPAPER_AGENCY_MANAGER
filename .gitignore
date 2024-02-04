@@ -21,3 +21,5 @@
 .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
 .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
 .metadata/version.ini
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
